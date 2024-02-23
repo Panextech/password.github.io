@@ -66,6 +66,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -107,6 +108,9 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+}
 /* Type */
 
 	body, input, select, textarea {
